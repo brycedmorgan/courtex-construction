@@ -819,6 +819,233 @@ body {
 .fade-in:nth-child(5) { transition-delay: 400ms; }
 .fade-in:nth-child(6) { transition-delay: 500ms; }
 
+/* Landing Page Styles */
+.landing-hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(45deg, var(--color-surface), #0a2b15);
+}
+
+.landing-hero-content {
+  position: relative;
+  z-index: 3;
+  color: var(--color-on-surface);
+  width: 100%;
+  padding: 8rem 0;
+}
+
+.landing-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 4rem;
+  align-items: center;
+}
+
+.landing-hero-title {
+  margin-bottom: 1.5rem;
+}
+
+.landing-hero-subtitle {
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.landing-hero-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 500;
+}
+
+.lead-form-card {
+  background: var(--color-white);
+  padding: 2.5rem;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 24px 64px rgba(0,0,0,0.15);
+  color: var(--color-text);
+}
+
+.lead-form-card h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: var(--color-surface);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--color-text);
+  font-size: 0.875rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  transition: all var(--transition);
+  background: var(--color-white);
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(203, 247, 73, 0.1);
+}
+
+.btn-full {
+  width: 100%;
+  justify-content: center;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.form-disclaimer {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  text-align: center;
+  line-height: 1.4;
+}
+
+.trust-indicators {
+  background: var(--color-surface);
+  padding: 4rem 0;
+  color: var(--color-on-surface);
+}
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+.trust-item {
+  padding: 1.5rem;
+}
+
+.trust-number {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.trust-label {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.8;
+}
+
+.why-choose-us {
+  padding: 6rem 0;
+  background: var(--color-light);
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
+.why-item {
+  text-align: center;
+  padding: 2rem;
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition);
+  border-top: 4px solid transparent;
+}
+
+.why-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.1);
+  border-top-color: var(--color-primary);
+}
+
+.why-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 1.5rem;
+  background: var(--color-surface-container-low);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+}
+
+.landing-process {
+  padding: 6rem 0;
+  background: var(--color-white);
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.process-step {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.social-proof {
+  padding: 6rem 0;
+  background: var(--color-light);
+}
+
+.final-cta {
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.final-cta-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.final-cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
+
+.final-cta-urgency {
+  font-size: 0.875rem;
+  opacity: 0.8;
+  margin-top: 1rem;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
   .nav-links {
@@ -872,5 +1099,28 @@ body {
   
   .cta-form {
     flex-direction: column;
+  }
+
+  /* Landing Page Mobile */
+  .landing-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .landing-hero-content {
+    padding: 4rem 0;
+  }
+  
+  .lead-form-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .final-cta-buttons {
+    flex-direction: column;
+    align-items: center;
   }
 }
