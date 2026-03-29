@@ -1,0 +1,19 @@
+{
+  "name": "CourTex Construction",
+  "description": "Professional athletic court construction and resurfacing services in Texas, Colorado, and the Carolinas. Specializing in pickleball, tennis, basketball, and multi-use courts.",
+  "url": "https://courtexconstruction.com",
+  "author": "CourTex Construction",
+  "phone": "(555) 123-4567",
+  "email": "info@courtexconstruction.com",
+  "address": {
+    "street": "",
+    "city": "",
+    "state": "Texas",
+    "zip": ""
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "twitter": ""
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "CourTex Construction",
+  "alternateName": ["CourTex", "Courtex Construction"],
+  "description": "Professional athletic court construction and resurfacing services specializing in pickleball, tennis, basketball, and multi-use courts across Texas, Colorado, and the Carolinas.",
+  "url": "https://courtexconstruction.com",
+  "logo": "https://courtexconstruction.com/images/courtex-logo.png",
+  "foundingDate": "2008",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "TX, CO, NC, SC",
+    "addressCountry": "US"
+  },
+  "serviceArea": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Texas"
+    },
+    {
+      "@type": "AdministrativeArea", 
+      "name": "Colorado"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "North Carolina"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "South Carolina"
+    }
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Pickleball Court Construction",
+        "description": "New pickleball court construction with specialized surfaces and proper dimensions"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service", 
+        "name": "Tennis Court Construction",
+        "description": "Professional tennis court construction with tournament-quality surfaces"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Basketball Court Construction", 
+        "description": "Indoor and outdoor basketball court construction with precise measurements"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Court Resurfacing",
+        "description": "Expert resurfacing of existing tennis, pickleball, and basketball courts"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Court Conversion",
+        "description": "Tennis court to pickleball conversion services"
+      }
+    }
+  ],
+  "award": [
+    "15+ Years of Excellence",
+    "Thousands of Completed Projects",
+    "Multi-State Service Provider"
+  ],
+  "knowsAbout": [
+    "Pickleball court construction",
+    "Tennis court construction", 
+    "Basketball court construction",
+    "Court resurfacing",
+    "Post-tension concrete",
+    "Athletic surface systems",
+    "Court drainage systems",
+    "PickleGrip surface",
+    "Cushion-X surface",
+    "Pro-Cushion surface",
+    "Multi-use court construction",
+    "Court conversion",
+    "Court maintenance",
+    "Athletic facility construction"
+  ],
+  "hasCredential": [
+    "15+ Years Industry Experience",
+    "Specialized Pickleball Expertise",
+    "Multi-State Licensing",
+    "Professional Installation Team"
+  ],
+  "specialty": [
+    "Pickleball court construction",
+    "Court conversion services",
+    "Premium surface systems",
+    "Post-tension concrete foundations"
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://courtexconstruction.com/sitemap.xml
